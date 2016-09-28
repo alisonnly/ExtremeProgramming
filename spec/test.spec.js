@@ -5,7 +5,7 @@ var base_url = "http://localhost:49003/";
 
 console.log('this is a new guy');
 
-describe("Hello World Server", function() {
+describe("Hello World", function() {
   describe("GET /", function() {
     it("returns status code 200", function(done) {
       request.get(base_url, function(error, response, body) {
